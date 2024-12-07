@@ -7,3 +7,5 @@ for path in lsx.walk('H'):
         lsx.file_utime(path, map(int, matches[0]))
     else:
         print('Not found file time:', path)
+
+lsx.pause()

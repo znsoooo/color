@@ -22,3 +22,5 @@ for paths in files.values():
         print(path)
 print('-' * 12)
 print('Delete files success!')
+
+lsx.pause()

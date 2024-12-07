@@ -9,3 +9,5 @@ for path in lsx.walk('H'):
         path3 = lsx.path_unique(path2, '_')
         print(path, '->', path3)
         os.rename(path, path3)
+
+lsx.pause()
